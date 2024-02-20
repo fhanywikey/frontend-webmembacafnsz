@@ -1,0 +1,49 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.logo img {
+  width: 80px; 
+  height: auto;
+}
+
+.logo p {
+  padding-top: 30px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+   padding-right: 820px;
+}
+
+.contact {
+  padding-right: 50px;
+}
+
+.nav-links button {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.nav-links button:last-child {
+  margin-right: 0;
+}
+
+.list-gen {
+  opacity: 0;
+}
+
+.open>.list-gen {
+  visibility: visible;
+}
+
+/* .segitiga {
+  border-right: 4px solid trasparent;
+  border-left: 4px solid trasparent;
+  border-top: 4px solid;
+} */

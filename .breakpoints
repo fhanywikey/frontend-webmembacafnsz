@@ -1,0 +1,28 @@
+{
+  "files": {
+    "src/component/layout/cover.jsx": [
+      {
+        "id": "8d16e81c-1e8b-43c0-9926-615ded43dc6c",
+        "line": 35,
+        "version": 3831,
+        "index": 1826
+      }
+    ],
+    "src/component/layout/cover2.jsx": [
+      {
+        "id": "398fb7b1-6478-4e53-a4f7-7ef8abc632b8",
+        "line": 20,
+        "version": 480,
+        "index": 887
+      }
+    ],
+    "src/component/layout/horror.jsx": [
+      {
+        "id": "6b004833-95fa-4d9d-beb2-532f923c0915",
+        "line": 5,
+        "version": 1210,
+        "index": 174
+      }
+    ]
+  }
+}

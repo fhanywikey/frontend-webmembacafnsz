@@ -1,0 +1,113 @@
+.app-container {
+    min-height: 100%;
+}
+
+.tool-tip {
+  position: relative;
+}
+
+.stats-value:hover + .sr-only {
+  display: inline;
+}
+
+/* .sr-only {
+  display: none; 
+  position: absolute;
+  top: -20px;
+  left: 0;
+  background-color: #cbc8c8; 
+  padding: 5px;
+  border: 1px solid #a9a7a7; 
+} */
+
+div {
+  display: block;
+}
+
+.story-details .story-header .story-info {
+    
+    margin-top: 32px;
+    margin-left: 24px;
+}
+
+.story-details .story-header {
+    width: 100%;
+    box-shadow: 0 8px 12px rgba(18,18,18,.16);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #fff;
+    padding: 20px;
+}
+
+.story-details .story-header .cover {
+    position: relative;
+    height: 304px;
+}
+
+.story-details .story-header .story-info .story-info__title {
+    height: 83px;
+    width: 344px;
+    overflow: hidden;
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #121212;
+}
+
+.new-story-stats .stats-item .stats-label__icon+.stats-label__text {
+    margin-left: 4px;
+}
+
+.new-story-stats .stats-item+.stats-item {
+    border-left: 1px solid rgba(18,18,18,.12);
+}
+.new-story-stats .stats-item {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.new-story-stats .stats-item .stats-label {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.new-story-stats .stats-value {
+    color: #121212;
+    font-size: 14px;
+    font-weight: 700;
+    justify-self: center;
+    line-height: 20px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.t7fb4589a-5ee3-4d2a-9b02-b00d184ee83c.place-top {
+    margin-top: -10px;
+}
+<style>
+.t7fb4589a-5ee3-4d2a-9b02-b00d184ee83c {
+    color: #fff;
+    background: #222;
+    border: 1px solid transparent;
+}
+<style>
+.__react_component_tooltip {
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 13px;
+    left: -999em;
+    opacity: 0;
+    padding: 8px 21px;
+    position: fixed;
+    pointer-events: none;
+    transition: opacity 0.3s ease-out;
+    top: -999em;
+    visibility: hidden;
+    z-index: 999;
+}
