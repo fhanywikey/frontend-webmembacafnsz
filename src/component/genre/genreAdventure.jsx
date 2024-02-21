@@ -22,7 +22,7 @@ function GenreAdventure() {
       imageSrc: "https://img.wattpad.com/cover/344897966-416-k500066.jpghttps://img.wattpad.com/cover/333561462-144-k437806.jpg",
       title: "I'm The Villain's And Hero's Mom✔",
       description:
-        "Liviana Putri adalah seorang budak korporat yang selalu bekerja seharian. Dia mati karena kelelahan saat membaca novel setelah punya waktu untuk beristirahat. Bukannya ke alam baka, Livi malah masuk ke tubuh seorang ratu dari buku yang dia baca. Lilyana White East, ratu yang membenci putra kembarnyabersama kaisar karena dianggap merusak tubuhnya.",
+        "Liviana Putri adalah seorang budak korporat yang selalu bekerja seharian, Dia mati karena kelelahan saat membaca novel setelah punya waktu untuk beristirahat. Bukannya ke alam baka, Livi malah masuk ke tubuh seorang ratu dari buku yang dia baca. Lilyana White East, ratu yang membenci putra kembarnyabersama kaisar karena dianggap merusak tubuhnya.",
     },
     {
       link: "",
