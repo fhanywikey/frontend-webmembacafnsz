@@ -16,7 +16,7 @@ import { Link } from "react-router-dom";
         <div>
          <h5 className="font-bold text-2xl my-[20px]">Resep Cinta Dalam Doa</h5>
          <p className="text-sm">Disandera oleh trauma masa lalu membuat Fariz masih menjomblo <br/> diumurnya yang sudah memasuki 36 tahun. Membuat kedua orang<br/>tuanya cemas dan gelisah. Meneror tiada henti disetiap harinya,<br/> 
-           hingga membuat Fariz akhirnya mengalah, meminta untuk kedua <br/> orang tuanya mencarikan pasangan untuknya. Wanita itu adalah <br/> Kaira, wanita muda yang terpaut umur cukup jauh dengannya.  </p>
+           hingga membuat Fariz akhirnya mengalahhhh, meminta untuk kedua <br/> orang tuanya mencarikan pasangan untuknya. Wanita itu adalah <br/> Kaira, wanita muda yang terpaut umur cukup jauh dengannya.  </p>
         </div>
        </div>
       </a>
