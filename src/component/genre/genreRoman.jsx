@@ -87,7 +87,7 @@ import { Link } from "react-router-dom";
          <h5 className="font-bold text-2xl my-[20px]">Farhan Habibi</h5>
          <p className="text-sm">Farhan habibi adalah seorang ustadz bagi seorang gadis mungil <br/> yang bernama Aisyah, sosoknya yang tegas,galak dan berwibawa <br/>membuat Aisyah sedikit takut kepada ustadz muda tersebut. Namun <br/> 
            siapa sangka dibalik sikap tegas dan galaknya, farhan menyimpan  <br/>rasa suka terhadap  murid bandelnya itu,</p>
-        </div>  tyutu
+        </div>  tyutufggfdguyikjhkhjk
        </div>
       </a>
       <a href="https://www.wattpad.com/1351147316-bersaing-dengan-masalalu-satu">
