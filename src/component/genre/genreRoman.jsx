@@ -15,8 +15,8 @@ import { Link } from "react-router-dom";
         <img className="mr-[20px]" src="https://img.wattpad.com/cover/200465088-144-k28396.jpg" alt="btr" />
         <div>
          <h5 className="font-bold text-2xl my-[20px]">Resep Cinta Dalam Doa</h5>
-         <p className="text-sm">Disandera oleh trauma masa lalu membuat Fariz masih menjomblo <br/> diumurnya yang sudah memasuki 36 tahun. Membuat kedua orang<br/>tuanya cemas dan gelisah. Meneror tiada henti disetiap harinya,<br/> 
-           hingga membuat Fariz akhirnya mengalah, meminta untuk kedua <br/> orang tuanya mencarikan pasangan untuknya. Wanita itu adalah <br/> Kaira, wanita muda yang terpaut umur cukup jauh dengannya.  </p>
+         <p className="text-sm">Disandera oleh trauma masa lallu membuat Fariz masih menjomblo <br/> diumurnya yang sudah memasuki 36 tahun. Membuat kedua orang<br/>tuanya cemas dan gelisah. Meneror tiada henti disetiap harinya,<br/> 
+           hingga membuat Fariz akhirnya mengalahhhh, meminta  untuk kedua <br/> orang tuanya mencarikan pasangan untuknya. Wanita itu adalah <br/> Kaira, wanita muda yang terpaut umur cukup jauh dengannya.  </p>
         </div>
        </div>
       </a>
@@ -87,7 +87,7 @@ import { Link } from "react-router-dom";
          <h5 className="font-bold text-2xl my-[20px]">Farhan Habibi</h5>
          <p className="text-sm">Farhan habibi adalah seorang ustadz bagi seorang gadis mungil <br/> yang bernama Aisyah, sosoknya yang tegas,galak dan berwibawa <br/>membuat Aisyah sedikit takut kepada ustadz muda tersebut. Namun <br/> 
            siapa sangka dibalik sikap tegas dan galaknya, farhan menyimpan  <br/>rasa suka terhadap  murid bandelnya itu,</p>
-        </div>
+        </div>  tyu
        </div>
       </a>
       <a href="https://www.wattpad.com/1351147316-bersaing-dengan-masalalu-satu">

@@ -232,7 +232,7 @@ import { Link } from "react-router-dom";
                     </a>
                     <a href="https://www.wattpad.com/1274846758-arzegas-perfect-demon-selesai-00-arzegas">
                       <img className="mb-2" src={D} alt="d" />
-                      <h5 className="font-bold text-center">ARZEGAS || Perfect Demon</h5>
+                      <h5 className="font-bold text-center">ARZEGAS Perfect Demon</h5>
                     </a>
                   </div>
                 </div>
