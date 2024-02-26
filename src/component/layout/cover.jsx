@@ -1,4 +1,4 @@
-            import Btr from "../../assets/img/btr.jpg";
+/*             import Btr from "../../assets/img/btr.jpg";
             import Btw from "../../assets/img/btw.jpg";
             import Samuel from "../../assets/img/samuel.jpg";
             import Dgm from "../../assets/img/dgm.jpg";
@@ -239,3 +239,39 @@ import { Link } from "react-router-dom";
               );
             }
             export default Cover;
+ */
+ 
+            import Samuel from "../../assets/img/samuel.jpg";
+            import React, { useState, useEffect } from 'react';
+            import { Link } from 'react-router-dom';
+            
+            function Cover() {
+              const [books, setBooks] = useState([]);
+            
+              useEffect(() => {
+                fetch('http://localhost:3001/api/books')
+                  .then((response) => response.json())
+                  .then((data) => setBooks(data))
+                  .catch((error) => console.error('Error fetching data:', error));
+              }, []);
+            
+              return (
+                <div className="cover-container py-10 md:py-20 pl-5 md:pl-10 my-5 md:my-10 bg-slate-50 rounded-xl">
+                  <div>
+                    <h1 className="font-bold text-3xl md:text-4xl mb-5 md:mb-10 text-center">Cerita yang Tersedia</h1>
+                  </div>
+                  <div className="cover flex flex-wrap justify-center">
+                    {books.map((book) => (
+                      <Link key={book.id} to={`/sinopsis/${book.id}`} className="story-link">
+                        <img className="mb-2" src={book.image} alt={book.title} />
+                        <h5 className="font-bold text-center">{book.title}</h5>
+                      </Link>
+                    ))}
+                  </div>
+                  {/* ... Your remaining JSX ... */}
+                </div>
+              );
+            }
+            
+            export default Cover;
+            

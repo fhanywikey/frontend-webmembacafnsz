@@ -1,4 +1,4 @@
-import Ntdfe from "../../assets/img/Ntdfe.jpg";
+/* import Ntdfe from "../../assets/img/Ntdfe.jpg";
 import Satal from "../../assets/img/Satal.jpg";
 import Ip from "../../assets/img/Ip.jpg";
 import Lp from "../../assets/img/Lp.jpg";
@@ -39,10 +39,52 @@ function Fantasy() {
         </a>
       </div>
       <button className="w-full md:1/4 bg-gray-200 py-1 px-4 rounded-2xl ml-auto mt-4 md:mt-6">
-         <Link to="/genre/fantasy" className="">lihat lebih banyak-> </Link>
+         <Link to="/genre/fantasy" className="">lihat lebih banyak </Link>
       </button>
     </div>
 </div>
   );
 }
+export default Fantasy;
+ */
+
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+
+function Fantasy() {
+  const [fantasyData, setFantasyData] = useState([]);
+
+  useEffect(() => {
+    // Fetch data from backend API
+    fetch('http://localhost:3001/api/fantasy')
+      .then((response) => response.json())
+      .then((data) => setFantasyData(data))
+      .catch((error) => console.error('Error fetching fantasy data:', error));
+  }, []);
+
+  return (
+    <div className="">
+      <div className="">
+        <h1 className="font-bold text-4xl text-center my-10 md:ml-20">Kategori Cerita Yang Tersedia</h1>
+      </div>
+      <div className="flex flex-col justify-center pt-10 pb-5 mt-5 mx-5 rounded-2xl bg-lime-100 mb-5">
+        <div className="flex">
+          <h1 className="font-semibold ml-4 text-2xl md:text-3xl">KATEGORI CERITA FANTASY</h1>
+        </div>
+        <div className="fantasy ml-10 mt-4 flex flex-wrap">
+          {fantasyData.map((book) => (
+            <Link key={book.id} to={`/sinopsis/${book.id}`}>
+              <img src={book.image} alt={book.title} />
+              <h5 className="font-bold text-center">{book.title}</h5>
+            </Link>
+          ))}
+        </div>
+        <button className="w-full md:1/4 bg-gray-200 py-1 px-4 rounded-2xl ml-auto mt-4 md:mt-6">
+          <Link to="/genre/fantasy" className="">lihat lebih banyak </Link>
+        </button>
+      </div>
+    </div>
+  );
+}
+
 export default Fantasy;

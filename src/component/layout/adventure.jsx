@@ -35,7 +35,7 @@ function Adventure() {
         </a>
       </div>
       <button className="w-full md:1/4 bg-gray-200 py-1 px-4 rounded-2xl ml-auto mt-4 md:mt-6">
-         <Link to="/genre/adventure" className="text-center">lihat lebih banyak-> </Link>
+         <Link to="/genre/adventure" className="text-center">lihat lebih banyak </Link>
       </button>
     </div>
   );
